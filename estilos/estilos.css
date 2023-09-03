@@ -3,11 +3,11 @@
     text-align: center;
     width: 100%;
     margin: 0;
-    background-color: rgb(222, 222, 222);
+    background-color: rgb(159, 208, 223);
     cursor: default;
     position: relative;
     height: auto;
-    min-height: 80px;}
+    min-height: 60px;}
 
 .titulo h1 {
     font-family: Verdana;
@@ -37,7 +37,7 @@ body {
 }
 
 .lista a {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .secciones {
@@ -46,45 +46,41 @@ body {
     color: black;
     padding: 10px;
     margin: 10px 0;
-    font-weight: 500;
+    font-weight: 400;
     border-radius: 20px;
-    cursor: grab;
 }
 
 .secciones:hover {
-    background-color: rgba(29, 29, 29, 0.075);
+    background-color: rgb(34, 117, 150);
     transition: 300ms;
 }
 
 .secciones:active {
-    background-color: rgb(165, 165, 165);
-    color: black;
-    cursor: grabbing;
+    background-color: rgb(34, 117, 150);
+    color: rgb(34, 117, 150);
 }
 
 .inicio {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: rgb(34, 117, 150)k;
     font-weight: 500;
     padding: 10px;
     margin: 10px 0;
     border-radius: 20px;
-    cursor: grab;
-    background-color: rgb(0, 0, 0);
+    background-color:rgb(34, 117, 150);
     color: white;
 }
 
 .datospersonales {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: rgb(34, 117, 150)k;
     font-weight: 500;
     padding: 10px;
     margin: 10px 0;
     border-radius: 20px;
-    cursor: grab;
-    background-color: rgb(0, 0, 0);
+    background-color:rgb(34, 117, 150);
     color: white;
 }
 
@@ -97,39 +93,36 @@ body {
 .conocimientos {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: rgb(34, 117, 150)k;
     font-weight: 500;
     padding: 10px;
     margin: 10px 0;
     border-radius: 20px;
-    cursor: grab;
-    background-color: rgb(0, 0, 0);
+    background-color:rgb(34, 117, 150);
     color: white;
 }
 
 .estudios {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: rgb(34, 117, 150)k;
     font-weight: 500;
     padding: 10px;
     margin: 10px 0;
     border-radius: 20px;
-    cursor: grab;
-    background-color: rgb(0, 0, 0);
+    background-color:rgb(34, 117, 150);
     color: white;
 }
 
 .experiencialaboral {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: rgb(34, 117, 150)k;
     font-weight: 500;
     padding: 10px;
     margin: 10px 0;
     border-radius: 20px;
-    cursor: grab;
-    background-color: rgb(0, 0, 0);
+    background-color:rgb(34, 117, 150);
     color: white;
 }
 
@@ -153,7 +146,7 @@ div ul {
 
 .cajaindex {
     background-color: rgba(255, 255, 255, 0.482);
-    height: 200px;
+    height: 400px;
     width: 700px;
     border-radius: 20px;
     display: flex;
@@ -161,6 +154,7 @@ div ul {
     align-items: center;
     flex-direction: column;
     cursor: default;
+    font-size: 20px;
 }
 
 .caja {
@@ -200,7 +194,7 @@ div ul {
 }
 
 footer {
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(141, 206, 226);
     height: 100%;
     display: flex;
     justify-content: center;
@@ -257,11 +251,11 @@ label {
     }
 
     input:checked~label {
-        background: lightgrey;
+        background: rgb(211, 211, 211);
     }
 
     label:hover {
-        background: grey;
+        background: rgb(128, 128, 128);
     }
 
     li {
