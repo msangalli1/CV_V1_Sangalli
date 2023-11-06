@@ -108,6 +108,11 @@ body {
     background-color:rgb(34, 117, 150);
     color: white;
 }
+form {
+    margin: 0 auto;
+    width: 600px;
+}
+
 .contacto {
     text-decoration: none;
     list-style: none;
@@ -193,12 +198,12 @@ div ul {
     cursor: default;
     position: relative;
 }
-.caja p {
+/* .caja p {
     text-align: center;
     line-height: 2.5;
     position: absolute;
     top: 160px;
-}
+} */
 
 .caja h1 {
     position: absolute;
@@ -211,10 +216,10 @@ div ul {
     font-size: 50px;
 }
 
-.portada div p {
+/* .portada div p {
     margin: 0;
 
-}
+} */
 
 footer {
     background-color: rgb(141, 206, 226);
@@ -240,7 +245,7 @@ menu{
 @media all and (max-width: 710px) {
 
     input:checked~ul {
-        display: block;
+        /* display: block; */
         position: absolute;
         right: 130px;
         z-index: 1;
