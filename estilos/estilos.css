@@ -30,6 +30,7 @@ img {
 
 body {
     font-family: 'Poppins';
+
     margin: 0;
     background-image: url(../img/portada.jpg);
     background-size: cover;
@@ -111,6 +112,7 @@ body {
 form {
     margin: 0 auto;
     width: 600px;
+    
 }
 
 .contacto {
@@ -151,10 +153,13 @@ form {
 
 div {
     margin-left: 30px;
+    display: inline;
+    
 }
 
 div ul {
     padding-left: 20px;
+    
 }
 
 .cajaindex {
@@ -198,12 +203,12 @@ div ul {
     cursor: default;
     position: relative;
 }
-/* .caja p {
+.caja p {
     text-align: center;
     line-height: 2.5;
     position: absolute;
     top: 160px;
-} */
+}
 
 .caja h1 {
     position: absolute;
@@ -216,10 +221,10 @@ div ul {
     font-size: 50px;
 }
 
-/* .portada div p {
+.portada div p {
     margin: 0;
 
-} */
+}
 
 footer {
     background-color: rgb(141, 206, 226);
@@ -242,10 +247,12 @@ menu{
     flex-direction: row;
     display: block;
   }
+
+  
 @media all and (max-width: 710px) {
 
     input:checked~ul {
-        /* display: block; */
+        display: block;
         position: absolute;
         right: 130px;
         z-index: 1;
