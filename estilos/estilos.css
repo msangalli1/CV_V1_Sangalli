@@ -9,6 +9,7 @@
     height: auto;
     min-height: 60px;}
 
+
 .titulo h1 {
     font-family: Verdana;
     color: rgb(255, 255, 255);
@@ -17,6 +18,10 @@
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
     text-transform: uppercase;
     font-size: 25px;
+}
+
+.ocultar-div{
+    display:none;
 }
 
 img {
@@ -216,7 +221,11 @@ input {
 label {
     display: none;
 }
-
+menu{
+    display: none;
+    flex-direction: row;
+    display: block;
+  }
 @media all and (max-width: 710px) {
 
     input:checked~ul {
@@ -292,6 +301,7 @@ label {
         cursor: pointer;
         background-color: rgb(255, 255, 255);
     }
+
 
 
     .lista {
