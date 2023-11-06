@@ -26,6 +26,8 @@ img {
 body {
     font-family: 'Poppins';
     margin: 0;
+    background-image: url(../img/portada.jpg);
+    background-size: cover;
 }
 
 .lista {
@@ -134,27 +136,21 @@ div ul {
     padding-left: 20px;
 }
 
-.portada {
-    background-image: url(../img/portada.jpg);
-    height: 1000px;
-    margin: 0;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cajaindex {
     background-color: rgba(255, 255, 255, 0.482);
     height: 400px;
     width: 700px;
     border-radius: 20px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    cursor: default;
+    cursor: default; */
     font-size: 20px;
+    /* align-content: center; */
+    display: grid;
+    place-items: center;
+    /* place-content: center; */
 }
 
 .caja {
@@ -206,11 +202,11 @@ div ul {
 
 footer {
     background-color: rgb(141, 206, 226);
-    height: 100%;
+    width: 100%;
+    padding: 20px 0px;
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    cursor: default;
 }
 
 input {
@@ -308,4 +304,14 @@ label {
 ul li a {
     text-decoration: none;
     color: black;
+}
+
+.carouselFormat{
+    color: beige;
+}
+
+.pCarousel{
+    display: grid;
+    text-align: center;
+    place-items: center;
 }
