@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/salida.css">
+</head>
+
+
+<header class="container">
+    <div class="row">
+        <div class="col text-center">
+            <label id="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <h1>Caronte Web Studio</h1>
+        </div>
+    </div> 
+</header>
+<main class="container">
+    <section class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <h2>Custom Web & Design</h2>
+            <p>Desarrollamos la web para tu negocio con un diseño web a medida 100% personalizado. 
+                Olvidate de plantillas y proyectos sin personalidad. Estamos en Vitoria-Gasteiz y 
+                trabajamos con clientes de todo el país.
+            </p>
+            <a href="https://carontestudio.com/" target="_blank">Descúbrenos</a>
+        </div>
+    </section>
+</main>
+<script>
+    const colorSwitch = document.querySelector('#switch input[type="checkbox"]');
+    function cambiaTema(ev){
+        if(ev.target.checked){
+            document.documentElement.setAttribute('tema', 'dark');
+        } else {
+            document.documentElement.setAttribute('tema', 'light');
+        }
+    }
+    colorSwitch.addEventListener('change', cambiaTema);
+</script>   
