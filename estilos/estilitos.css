@@ -30,86 +30,12 @@ img {
     border-radius: 20px;
 }
 
-/* .secciones:hover {
-    background-color: rgb(34, 117, 150);
-    transition: 300ms;
-}
-
-.secciones:active {
-    background-color: rgb(34, 117, 150);
-    color: rgb(34, 117, 150);
-} */
 
 
-.datospersonales {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(34, 117, 150)k;
-    font-weight: 500;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 20px;
-    background-color:rgb(34, 117, 150);
-    color: white;
-}
-
-.mail {
-    text-decoration: none;
-    color: black;
-    text-decoration: underline;
-}
-
-.conocimientos {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(34, 117, 150)k;
-    font-weight: 500;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 20px;
-    background-color:rgb(34, 117, 150);
-    color: white;
-}
 form {
     margin: 0 auto;
     width: 600px;
     
-}
-
-.contacto {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(34, 117, 150)k;
-    font-weight: 500;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 20px;
-    background-color:rgb(34, 117, 150);
-    color: white;
-}
-
-.estudios {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(34, 117, 150)k;
-    font-weight: 500;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 20px;
-    background-color:rgb(34, 117, 150);
-    color: white;
-}
-
-.experiencialaboral {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(34, 117, 150)k;
-    font-weight: 500;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 20px;
-    background-color:rgb(34, 117, 150);
-    color: rgb(252, 252, 252);
 }
 
 div {
@@ -124,36 +50,6 @@ div ul {
 }
 
 
-.caja {
-    background-color: rgba(255, 255, 255, 0.482);
-    height: 420px;
-    width: 700px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    cursor: default;
-    position: relative;
-}
-.caja2{
-    background-color: rgba(255, 255, 255, 0.482);
-    height: 500px;
-    width: 600px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    cursor: default;
-    position: relative;
-}
-.caja p {
-    text-align: center;
-    line-height: 2.5;
-    position: absolute;
-    top: 160px;
-}
 
 .portada div p {
     margin: 0;
@@ -350,6 +246,7 @@ p {
   color: var(--color-texto);
 }
 
+
 :root {
     --imagen-fondo-light: url(../img/fondo-oscuro.jpg);
     --imagen-fondo-dark: url(../img/fondo-claro.jpg);
@@ -367,13 +264,25 @@ p {
     --color-nav1: #616161;
     --color-nav1-color:#ffffff;
     .cajaindex {
-        background-color: #ffffff;
+        background-color: rgba(255, 255, 255, 0.482);
         height: 400px;
         width: 700px;
         border-radius: 20px;
         font-size: 20px;
         display: grid;
         place-items: center;
+    }
+    .caja {
+        background-color: rgba(255, 255, 255, 0.482);
+        height: 420px;
+        width: 700px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: default;
+        position: relative;
     }
     .carouselFormat{
         color: rgb(254, 254, 254);
@@ -392,13 +301,25 @@ p {
     --color-nav1: #575757;
     --color-nav1-color:#ffffff;
     .cajaindex {
-        background-color: #000000;
+        background-color: rgba(0, 0, 0, 0.482);
         height: 400px;
         width: 700px;
         border-radius: 20px;
         font-size: 20px;
         display: grid;
         place-items: center;
+    }
+    .caja {
+        background-color: rgba(0, 0, 0, 0.482);
+        height: 420px;
+        width: 700px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: default;
+        position: relative;
     }
     .carouselFormat{
         color: rgb(0, 0, 0);
