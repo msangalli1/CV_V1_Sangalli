@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" tema="light">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilitos.css">
     <title>Currículum</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap"
         rel="stylesheet">
@@ -16,6 +16,11 @@
         <div class="botondiv">
             <input type="checkbox" id="menu">
             <label for="menu"> ☰ </label>
+            <label id="switch">
+                <input type="checkbox"> 
+                <span class="slider round"></span>
+            </label>
+            <script src="color.js" defer></script>
             <ul class="lista">
                 <a class="secciones" href="index.html">
                     <li>Inicio</li>
@@ -23,7 +28,7 @@
                 <a class="secciones" href="datosPersonales.html">
                     <li>Datos personales</li>
                 </a>
-                <li class="conocimientos">Conocimientos</li>
+                <li class="inicio">Conocimientos</li>
                 </a>
                 <a class="secciones" href="estudios.html">
                     <li>Estudios</li>

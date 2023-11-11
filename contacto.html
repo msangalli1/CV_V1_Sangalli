@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" tema="light">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/estilos_contacto.css">
+    <link rel="stylesheet" href="estilos/estilitos.css">
     <title>Contacto</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -21,6 +21,11 @@
         <div class="botondiv">
             <!-- <input type="checkbox" id="menu"> -->
             <label for="menu" class="ocultar-div"> ☰ </label>
+            <label id="switch">
+                <input type="checkbox"> 
+                <span class="slider round"></span>
+            </label>
+            <script src="color.js" defer></script>
             <ul class="lista">
                 <a class="secciones" href="index.html">
                     <li>Inicio</li>
@@ -37,7 +42,7 @@
                 <a class="secciones" href="experiencialaboral.html">
                     <li>Experiencia laboral</li>
                 </a>
-                <li class="contacto">Contacto</li>
+                <li class="inicio">Contacto</li>
                 </a>
             </ul>
         </div>
