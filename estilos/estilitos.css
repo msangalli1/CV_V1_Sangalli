@@ -126,6 +126,8 @@ footer {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
         font-family: 'Poppins';
         margin: 0;
         background-color: var(--color-fondo);
