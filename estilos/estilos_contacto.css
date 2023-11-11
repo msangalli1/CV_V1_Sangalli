@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins';
-
+    
     margin: 0;
     background-image: url(../img/portada.jpg);
     background-size: cover;
@@ -9,12 +9,14 @@ body {
 .ocultar-div{
     display:none;
 }
+
 menu{
     display: none;
     flex-direction: row;
     display: block;
-  }
-  .secciones {
+}
+
+.secciones {
     text-decoration: none;
     list-style: none;
     color: black;
@@ -33,7 +35,8 @@ menu{
     background-color: rgb(34, 117, 150);
     color: rgb(34, 117, 150);
 }
-  .titulo {
+
+.titulo {
     box-shadow: 3px 3px 3px rgb(74, 74, 74);
     text-align: center;
     width: 100%;
@@ -42,7 +45,8 @@ menu{
     cursor: default;
     position: relative;
     height: auto;
-    min-height: 60px;}
+    min-height: 60px;
+}
 
 .lista {
         display: flex;
@@ -50,9 +54,9 @@ menu{
         margin-top: 0;
         margin-bottom: 0;
         gap: 10px;
-    }
+}
 
-  footer {
+footer {
     background-color: rgb(141, 206, 226);
     width: 100%;
     padding: 20px 0px;
@@ -61,14 +65,14 @@ menu{
     justify-content: center;
 }
 
-  main {
+main {
     margin: 0 auto;
     padding: 4rem 0;
     width: 90%;
     max-width: 60rem;
-  }
+}
   
-  form {
+form {
     box-sizing: border-box;
     padding: 2rem;
     border-radius: 1rem;
@@ -77,12 +81,13 @@ menu{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-  }
+}
   
-  .full-width {
+.full-width {
     grid-column: span 2;
-  }
-  .contacto {
+}
+
+.contacto {
     text-decoration: none;
     list-style: none;
     color: rgb(34, 117, 150)k;
