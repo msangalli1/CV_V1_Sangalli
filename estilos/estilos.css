@@ -1,19 +1,55 @@
+
+
+
+img {
+    box-shadow: 3px 3px 3px rgb(74, 74, 74);
+}
+
+
+.lista {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 10px;
+}
+
+.lista a {
+    color: rgb(0, 0, 0);
+}
+
+.secciones {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: 400;
+    border-radius: 20px;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff; /* Cambia el color de fondo del formulario según tu preferencia */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave al formulario */
+}
+
 .formulario-label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
 }
 
-form {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
 input, textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 16px;
     box-sizing: border-box;
+    border: 1px solid #ccc; /* Agrega un borde alrededor de los campos de entrada */
+    border-radius: 4px;
 }
 
 button {
@@ -27,4 +63,408 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+div {
+    margin-left: 30px;
+    display: inline;
+    
+}
+
+div ul {
+    padding-left: 20px;
+    
+}
+
+.portada div p {
+    margin: 0;
+
+}
+
+menu{
+    display: none;
+    flex-direction: row;
+    /* display: block; */
+  }
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.pCarousel{
+    display: grid;
+    text-align: center;
+    place-items: center;
+}
+
+
+footer {
+    width: 100%;
+    padding: 20px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    background-color: var(--color-foot);
+    position: relative;
+    bottom: 0; /* Agregado para fijar el footer en la parte inferior */
+}
+
+.titulo {
+    box-shadow: 3px 3px 3px rgb(74, 74, 74);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    background-color: var(--color-nav);
+    cursor: default;
+    position: relative;
+    height: auto;
+    min-height: 60px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+        font-family: 'Poppins';
+        margin: 0;
+        background-color: var(--color-fondo);
+        color: var(--color-fuente);
+        background-image: var(--imagen-fondo);
+        background-size: cover;
+        min-height: 100vh;
+    }
+
+.inicio {
+        text-decoration: none;
+        list-style: none;
+        font-weight: 500;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 20px;
+        background-color: var(--color-nav1);
+        color: var(--color-nav1-color);
+    }
+
+.Nombre{
+    font-size:3rem;
+    text-transform:uppercase;
+    margin-top:2rem;
+    font-family: 'Cinzel', serif;
+    color: var(--color-texto);
+}
+
+h4 {
+    margin-top:1.4rem;
+    margin-bottom: 4rem;
+    font-family: 'Raleway', sans-serif;
+  color: var(--color-texto);
+}
+h5 {
+    margin-top:1.4rem;
+    margin-bottom: 4rem;
+    font-family: 'Raleway', sans-serif;
+  color: var(--color-texto);
+}
+p {
+    margin-top:1.4rem;
+    margin-bottom: 4rem;
+    font-family: 'Raleway', sans-serif;
+  color: var(--color-texto);
+}
+
+.ocultar-div{
+    display:none;
+}
+.menu-hamburguesa {
+    display: none;
+}
+
+:root {
+    --imagen-fondo-light: url(../img/fondo-oscuro.jpg);
+    --imagen-fondo-dark: url(../img/fondo-claro.jpg);
+    --color-texto-light: rgb(0, 0, 0); /* Color de texto para tema light */
+    --color-texto-dark: #ffffff;  /* Color de texto para tema dark */
+}
+/* Tema Light */
+[tema="light"]{
+    --color-texto: var(--color-texto-light);
+    --color-fuente: #ffffff;
+    --color-fondo: #000000;
+    --color-foot: #ffffff;
+    --color-nav:  #ffffff;
+    --imagen-fondo: var(--imagen-fondo-light);
+    --color-nav1: #616161;
+    --color-nav1-color:#ffffff;
+    .cajaindex {
+        background-color: rgba(255, 255, 255, 0.482);
+        height: 100%;
+        width: 50%;
+        border-radius: 20px;
+        font-size: 20px;
+        display: grid;
+        place-items: center;
+    }
+    .caja {
+        background-color: rgba(255, 255, 255, 0.482);
+        height: 100%;
+        width: 50%;
+        border-radius: 20px;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: default;
+        position: relative;
+    }
+    .carouselFormat{
+        color: rgb(254, 254, 254);
+    }
+
+}
+
+/* Tema Dark */
+[tema="dark"]{
+    --color-texto: var(--color-texto-dark);
+    --color-fuente: #ffffff;
+    --color-fondo: #000000;
+    --color-foot: #000000;
+    --color-nav:  #000000;
+    --imagen-fondo: var(--imagen-fondo-dark);
+    --color-nav1: #575757;
+    --color-nav1-color:#ffffff;
+    .cajaindex {
+        background-color: rgba(0, 0, 0, 0.482);
+        height: 100%;
+        width: 50%;
+        border-radius: 20px;
+        font-size: 20px;
+        display: grid;
+        place-items: center;
+    }
+    .caja {
+        background-color: rgba(0, 0, 0, 0.482);
+        height: 100%;
+        width: 50%;
+        border-radius: 20px;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: default;
+        position: relative;
+    }
+    .carouselFormat{
+        color: rgb(0, 0, 0);
+    }
+    .body{
+        background-image: url(../img/fondo-claro.jpg);
+    }
+
+}
+
+header {
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
+
+a {
+    background-color:var(--color-fuente);
+    color:var(--color-fondo);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:.75rem;
+    padding-right:.75rem;
+    border-style:solid;
+    border-width: .2rem;
+    border-color: var(--color-fuente);
+    border-radius: 2rem;
+    
+}
+
+a:hover {
+    background-color:var(--color-fondo);
+    color:var(--color-fuente);
+    text-decoration:none;
+}
+
+
+/*Botón de cambio de tema*/
+
+#switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  #switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:var(--color-fuente);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color:var(--color-fondo);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: var(--color-fuente);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px var(--color-fuente);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+/* MEDIA------------------------------ */
+
+
+@media only screen and (max-width: 600px) {
+    .titulo {
+        padding: 10px; /* Reduce el relleno en el título para pantallas más pequeñas */
+    }
+
+    .menu-label {
+        display: block; /* Muestra la etiqueta solo en pantallas más pequeñas */
+    }
+
+
+    form {
+        padding: 10px; /* Ajusta el relleno del formulario en pantallas más pequeñas */
+    }
+
+    .cajaindex {
+        width: 100%; 
+        padding: 10px; 
+        height: 100%;
+        display: contents;
+    }
+
+    .caja {
+        width: 100%; /* Ajusta el ancho al 100% en pantallas más pequeñas */
+        padding: 10px; /* Ajusta el relleno en pantallas más pequeñas */
+        display: contents;
+    }
+
+    .Nombre {
+        font-size: 2rem; /* Reduce el tamaño de la fuente del nombre en pantallas más pequeñas */
+        margin-top: 1rem; /* Ajusta el margen superior del nombre en pantallas más pequeñas */
+    }
+    .menu-hamburguesa {
+        display: block; /* Mostrar el menú hamburguesa en pantallas más pequeñas */
+        cursor: pointer;
+        left: 6px;
+    }
+
+    /* Estilos adicionales para el menú hamburguesa */
+    .menu-hamburguesa-icon {
+        font-size: 24px; /* Tamaño del icono (ajusta según sea necesario) */
+        cursor: pointer;
+    }
+    .menu {
+        display: none; /* Ocultar el menú principal en pantallas más pequeñas */
+    }
+    .secciones {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        padding: 10px;
+        margin: 10px 0;
+        font-weight: 400;
+        border-radius: 20px;
+    }
+
+    .lista {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+        background-color: rgb(222, 222, 222); /* Color de fondo del menú hamburguesa */
+        padding: 10px; /* Espaciado interno */
+        border-radius: 10px; /* Bordes redondeados */
+        position: absolute;
+        top: 60px; /* Ajusta según sea necesario para evitar solapamientos */
+        right: 0;
+        left: 0;
+        z-index: 1;
+        align-items: center; /* Centra los elementos de la lista en pantallas más pequeñas */
+    }
+
+    input:checked~ul {
+        display: block;
+        flex-direction: column;
+        gap: 5px;
+        background-color: rgb(222, 222, 222); /* Color de fondo del menú hamburguesa */
+        padding: 10px; /* Espaciado interno */
+        border-radius: 10px; /* Bordes redondeados */
+        position: absolute;
+        top: 60px; /* Ajusta según sea necesario para evitar solapamientos */
+        right: 0;
+        left: 0;
+        z-index: 1;
+        align-items: center; /* Centra los elementos de la lista en pantallas más pequeñas */
+    }
+
+    .titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    label {
+        margin: auto;
+        display: block ;
+        justify-content: left;
+        align-items: left;
+        border: 1px solid #1f1930;
+        border-radius: 5px;
+        /* width: 45px;
+        height: 34px; */
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: bold;
+        user-select: none;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+    }
+
 }
